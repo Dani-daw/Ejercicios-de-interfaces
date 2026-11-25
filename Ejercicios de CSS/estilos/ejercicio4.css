@@ -1,0 +1,21 @@
+p {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.asignatura {
+    background-color: #f3f3f3;
+    border: 1px solid gray;
+    padding: 15px;
+    width: fit-content;
+}
+
+#titulo-principal {
+    color: blue;
+    text-align: center;
+}
+
+.importante {
+    color: red;
+}
+

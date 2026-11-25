@@ -1,0 +1,27 @@
+body {
+    background-color: #f2f2f2
+    /*Faltan el ";"*/
+    font-family Arial, sans-serif;
+    /*Faltan los 2 puntos de font family*/
+}
+
+h1 {
+    color: blue;
+    text-align: centre;
+    /*Error de sintaxis no se hace efectiva la posicion*/
+    font-size: 32px;
+}
+
+p {
+    color: #333333;
+    font-size: 16;
+    /*Faltan poner los px en el numero para que afecten al css*/
+    margin-bottom: 12px;
+    /* Falta poner el border solid para que el borde se haga efectivo */
+}
+
+.destacado {
+    background-color: yellow;
+    font-weight: bold;
+    border: 1px solid;
+/*Falsta el corchete de cierre final } */

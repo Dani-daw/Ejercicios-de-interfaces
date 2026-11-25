@@ -1,0 +1,15 @@
+.tarjeta {
+    width: 300px;
+    background-color: #f2f2f2;
+    border-color: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 10px;
+    color: #333333;
+}
+
+.encabezado {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}

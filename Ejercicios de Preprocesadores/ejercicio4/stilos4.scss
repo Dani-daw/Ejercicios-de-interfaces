@@ -1,0 +1,64 @@
+$blue: #40566f;
+$green: #108653;
+$navy: #0b1933;
+
+@mixin button-style($bc: 0, $c: 0, $b: 0, $br: 0,){
+    background-color: $bc;
+    color: $c;
+    border: $b solid;
+    border-radius: $br;
+}
+
+.container {
+  padding: 20px 40px;
+  height: 18px;
+  font-size: 600;
+  cursor: pointer;
+  min-width: 190px;
+}
+
+.button-group {
+  padding: 30px;
+  display: flex;
+  gap: 100px;
+}
+
+.btn {
+ color: white; 
+}
+
+.blue{
+  .primario{
+    @include button-style($blue, white, 2px, 30px)
+  }
+  .secundario{
+    @include button-style(white, $blue, 2px, 30px) 
+  }
+  .terciario{
+    @include button-style(white, $blue, none, none)
+  }
+}
+
+.green{
+  .primario{
+    @include button-style($green, white, 2px, 30px)
+  }
+  .secundario{
+    @include button-style(white, $green, 2px, 30px)
+  }
+  .terciario{
+    @include button-style(white, $green, 0px, none)
+  }
+}
+
+.navy{
+  .primario{
+    @include button-style($navy, white, 2px, 30px)
+  }
+  .secundario{
+    @include button-style(white, $navy, 2px, 30px)
+  }
+  .terciario{
+    @include button-style(white, $navy, 0px, none)
+  }
+}
